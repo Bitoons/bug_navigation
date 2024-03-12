@@ -71,7 +71,7 @@ fun NavigationGraph(
             route = "home_next?catOnes={catOnes}",
             arguments = listOf(
                 navArgument("catOnes") {
-                    type = OnesCategoryType()
+                    type = OnesCategoryType()//if comment this part the bug is not present
                 },
             ),
         ) {
